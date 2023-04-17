@@ -62,6 +62,9 @@
 
 #include <llvm/Analysis/LoopInfo.h>
 
+#include <llvm/Transforms/Utils/Local.h>	// for FindDbgAddrUses
+
+
 namespace SVF
 {
 
