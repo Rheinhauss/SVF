@@ -197,7 +197,7 @@ int main(int argc, char ** argv)
     LLVMModuleSet::getLLVMModuleSet()->dumpModulesToFile(".svf.bc");
     SVF::LLVMModuleSet::releaseLLVMModuleSet();
 
-    llvm::llvm_shutdown();
+    // llvm::llvm_shutdown();
     delete[] arg_value;
     return 0;
 }
